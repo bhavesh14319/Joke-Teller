@@ -88,7 +88,7 @@ const VoiceRSS = {
 };
 
 //url fr fetching joke
-const url = 'https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw,religious,political,racist,sexist,explicit';
+const url = 'https://v2.jokeapi.dev/joke/Programming,Miscellaneous,Dark,Pun,Spooky,Christmas?blacklistFlags=nsfw,religious,political,racist,sexist,explicit';
 
 //tellJoke button
 const tellJokeBtn =  document.getElementById('jokeBtn');
